@@ -1,0 +1,132 @@
+@font-face {
+  font-family:Architects_Daughter;
+  src: url(fonts/Architects_Daughter/ArchitectsDaughter-Regular.ttf);
+}
+@@font-face {
+  font-family: Permanent_Marker;
+  src: url(fonts/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+title{
+  font-family:monospace;
+  justify-content: center;
+}
+body{
+  display: flex;
+   justify-content: center;
+   background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
+   position: relative;
+
+}
+#container{
+  position: relative;
+  justify-content: center;
+  top: 100px;
+  width: 500px;
+}
+#content-box{
+  background: lightblue;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: hsl(50%, 40%, 30%);
+  font-family: Architects_Daughter;
+  justify-content: center;
+  box-shadow: 6px 6px 6px 3px rgba(0, 0, 0, .05);
+
+}
+#slider{
+  overflow: hidden;
+}
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+@keyframes slider {
+  0% {
+      left: 0;
+  }
+  20% {
+      left: 0;
+  }
+  25% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+  50% {
+      left: -200%;
+  }
+  70% {
+       left: -200%;
+  }
+}
+#hero-image{
+  display: flex;
+  justify-content: center;
+}
+#hero-image img{
+  width: 250px;
+  height: 250px;
+}
+ul{
+  margin: 4px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+li {
+  margin: 10px;
+}
+a{
+  text-decoration-color: none;
+  padding: 5px;
+  margin-bottom: 13px;
+  justify-content: center;
+  font-family: cursive;
+}
+a:hover{
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: -2px;
+}
+#Name {
+  justify-content: center;
+  color: white;
+  font-family: cursive;
+  position: relative;
+}
+h1{
+  color: blue;
+  text-shadow: 1px 1px;
+  font-family: monospace;
+}
+#box1{
+  font-family: cursive;
+}
+#box2{
+  font-family: cursive;
+}
+#box3{
+  font-family: cursive;
+}
+#box4{
+  font-family: cursive;
+}
+#box5{
+  font-family: cursive;
+}
